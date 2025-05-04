@@ -19,6 +19,14 @@ Create a **5-page website** using **HTML, CSS, and a HTML editor** for a defined
 
 ---
 
+## 🌐 Visit the Live Website
+
+Click the link below to access the deployed website:
+
+🔗 [Go to the Website](https://nikgit165.github.io/70-Assigment/)
+
+---
+
 ## 🎯 Project Objectives
 
 - Build a multi-page site with modern UI/UX principles
