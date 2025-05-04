@@ -1,0 +1,45 @@
+@import url("style.css");
+@import url("style-contact-us.css");
+
+.most-popular,
+.contact-with-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.info {
+    background-color: #faebd7d3;
+    padding: 10px 25px;
+    margin: 1%;
+    width: 50%;
+}
+
+.info__switch {
+    display: none;
+}
+
+.info__body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+}
+
+.info__switch:checked + .info__headline + .info__body {
+    max-height: 200px;
+}
+
+.info__headline {
+    display: block;
+    position: relative;
+    margin-bottom: 10px;
+    user-select: none;
+    color: #39739d;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.info__headline:hover {
+    text-decoration: underline;
+}

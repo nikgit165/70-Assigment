@@ -1,0 +1,46 @@
+@import url("style.css");
+
+section.Contact-Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: auto;
+    margin: 40px 80px 40px 80px;
+    height: auto;
+    padding: 5px;
+    background-color: #fc940c10;
+    border-radius: 20px;
+    animation:slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both reverse;
+}
+
+@keyframes slide-top {
+    0% {
+        transform: translateY(-0%);
+    }
+
+    100% {
+        transform: translateY(-5%);
+    }
+}
+
+section.Contact-Form div {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+form.fill-form {
+    width: 50%;
+    height: auto;
+}
+
+.form-box {
+    margin: 1em;
+}
+
+.form-box label {
+    margin-right: 0.5em;
+}

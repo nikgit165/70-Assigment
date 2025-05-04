@@ -1,0 +1,58 @@
+@import url("style.css");
+/* @import url(/src/style/style-contact-us.css); */
+
+section.Content {
+    padding: auto;
+    margin: 40px 80px 40px 80px;
+    height: auto;
+    padding: 5px;
+    background-color: #fc940c10;
+    border-radius: 20px;
+    animation:slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both reverse;
+}
+
+@keyframes slide-top {
+    0% {
+        transform: translateY(-0%);
+    }
+
+    100% {
+        transform: translateY(-5%);
+    }
+}
+
+.header-box {
+    text-align: center;
+}
+
+.content-block-house {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1%;
+}
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0px 0px 0px 10px;
+    height: auto;
+    width: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.content-box:hover {
+    transform: scale(1.05);
+}
+
+img.content-box-img {
+    height: auto;
+    width: 50%;
+}
+
+.content-box p {
+    height: auto;
+    width: 50%;
+}

@@ -1,0 +1,156 @@
+<!Doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact with us</title>
+    <link rel="stylesheet" href="../style/style-FQA.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="icon" type="image/x-icon" href="../icons/castle.png">
+    <!-- Fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="opacity">
+                <div class="headerBox">
+                    <div class="top-text">
+                        <h1>FAQ</h1>
+                    </div>
+                </div>
+            </div>
+            <nav class="side-menu" id="side-menu">
+                <a href="../../index.html">
+                    <div class="side-menu-item">
+                        <img class="icon" src="../icons/home.svg" alt="home">
+                        <span id="exeption" class="icon-tooltip-text hide">Home Page</span>
+                    </div>
+                </a>
+                <a href="../pages/OurPropose.html">
+                    <div class="side-menu-item">
+                        <img class="icon" src="../icons/search.svg" alt="search">
+                        <span class="icon-tooltip-text hide">Our Propose</span>
+                    </div>
+                </a>
+                <a href="../pages/FAQ.html">
+                    <div class="side-menu-item">
+                        <img class="icon" src="../icons/settings.svg" alt="Our">
+                        <span class="icon-tooltip-text hide">Information & About Us</span>
+                    </div>
+                </a>
+                <a href="../pages/ContactUs.html">
+                    <div class="side-menu-item">
+                        <img class="icon" src="../icons/envelope.svg" alt="about">
+                        <span class="icon-tooltip-text hide">Contact With Us</span>
+                    </div>
+                </a>
+            </nav>
+
+            <div class="HelpUser" id="menu-button">
+                <a class="HelpLink">
+                    <img class="icon-link" src="../icons/question.svg" alt="about" class="iconsNav">
+                </a>
+            </div>
+
+            <!--  -->
+            <nav id="FullScreenNav">
+                <div class="openNav" onclick="openNav()">
+                    <img class="openNavImg" src="../icons/home.svg" alt="menu">
+                </div>
+                <div id="myNav" class="overlay">
+                    <div>
+                        <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
+                    </div>
+                    <div class="overlay-content">
+                        <a href="../pages/AboutUs.html">About Us</a>
+                        <a href="../pages/ContactUs.html">Contact Us</a>
+                        <a href="../pages/Service.html">Clients</a>
+                        <a href="../pages/FAQ.html">FAQ</a>
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+
+        <section class="quvestions">
+            <div class="most-popular">
+
+                <div class="info">
+                    <input class="info__switch" type="checkbox" id="info_1">
+                    <label class="info__headline" for="info_1">What services does your construction company provide?</label>
+                    <div class="info__body">
+                        We build private and commercial properties, 
+                        perform major and cosmetic repairs, reconstruct buildings, 
+                        as well as landscaping and engineering work.
+                    </div>
+                </div>
+            
+                <div class="info">
+                    <input class="info__switch" type="checkbox" id="info_2">
+                    <label class="info__headline" for="info_2">How long does it take to build a house?</label>
+                    <div class="info__body">
+                        The time frame depends on the area, 
+                        complexity of the project and weather conditions. 
+                        On average, building a house takes from 4 to 12 months.
+                    </div>
+                </div>
+
+                <div class="info">
+                    <input class="info__switch" type="checkbox" id="info_1">
+                    <label class="info__headline" for="info_1">What kind of warranty do you provide for the work?</label>
+                    <div class="info__body">
+                        We provide a warranty on all types of work for a period of 3 to 10 years, 
+                        depending on the specific type of construction or repair.
+                    </div>
+                </div>
+            
+                <div class="info">
+                    <input class="info__switch" type="checkbox" id="info_2">
+                    <label class="info__headline" for="info_2">Is it possible to change the project during construction?</label>
+                    <div class="info__body">
+                        Yes, but the changes must be agreed with the engineer and may affect the construction time frame and budget.
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- ----------------------- -->
+            <div class="contact-with-us">
+                <a href="../pages/ContactUs.html"><button class="contact-us">Contact With Us</button></a>
+            </div>
+        </section>
+
+        <footer>
+            <div class="listFooter1">
+                <ul id="webPage">
+                    <h4>Web pages</h4>
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="../pages/ContactUs.html">Contact Us</a></li>
+                    <li><a href="../pages/FAQ.html">FAQ</a></li>
+                    <li><a href="../pages/OurPropose.html">Our Propose</a></li>
+                    <li><a href="../pages/Service.html">Service</a></li>
+                </ul>
+            </div>
+            <div class="listFooter2">
+                <ul id="contactUs">
+                    <h4>Contact Us</h4>
+                    <li>Email: <a class="footerEMail" href="">temp.mail@gmail.com</a> </li>
+                    <li>Phone number: +353(071) 915 7000</li>
+                    <li>Address: Pearse Rd, Abbeyquarter South, Sligo</li>
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4659.886982337352!2d-8.471384!3d54.26957720000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485ee83520ae61dd%3A0x70b347bf2eaecf97!2sSligo%20Garda%20Station!5e0!3m2!1sru!2sie!4v1737549391464!5m2!1sru!2sie"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </ul>
+            </div>
+        </footer>
+    </main>
+    <script src="../script/script.js"></script>
+</body>
+
+</html>
